@@ -1,0 +1,26 @@
+name: Create Archive
+on:
+  push:
+    tags:
+      - "1.*.*"
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: mkdir
+        run: mkdir wordpress
+    - uses: actions/checkout@master
+      with:
+        path: wordpress
+    - name: Archive Release
+      uses: thedoctor0/zip-release@0.7.1
+      with:
+        type: 'tar'
+        filename: 'wordpress.tar.gz'
+        exclusions: '*.git* *.github*'
+        
+    - name: Upload Release
+      uses: ncipollo/release-action@v1.12.0
+      with:
+        artifacts: "wordpress.tar.gz"
+        token: ${{ secrets.GT_TOKEN }}

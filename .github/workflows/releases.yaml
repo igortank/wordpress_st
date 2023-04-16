@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: mkdir
-        run: mkdir wordpress
+      run: mkdir wordpress
     - uses: actions/checkout@master
       with:
         path: wordpress

@@ -17,8 +17,6 @@ jobs:
       with:
         type: 'tar'
         filename: 'wordpress.tar.gz'
-        exclusions: '*.git/* *.github/*'
-        custom: --ignore-failed-read
         
     - name: Upload Release
       uses: ncipollo/release-action@v1.12.0

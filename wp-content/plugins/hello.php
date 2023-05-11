@@ -18,7 +18,7 @@ function hello_dolly_get_lyric() {
 Well, hello, Dolly
 It's so nice to have you back where you belong
 You're lookin' swell, Dolly
-I can tell, Dolly
+I can tell, Dolly qwe
 You're still glowin', you're still crowin'
 You're still goin' strong
 I feel the room swayin'
@@ -27,7 +27,7 @@ One of our old favorite songs from way back when
 So, take her wrap, fellas
 Dolly, never go away again
 Hello, Dolly qwewrew
-Well, hello, Dolly
+Well, hello, Dolly qwe
 It's so nice to have you back where you belong
 You're lookin' swell, Dolly
 I can tell, Dolly
@@ -38,7 +38,7 @@ While the band's playin'
 One of our old favorite songs from way back when
 So, golly, gee, fellas
 Have a little faith in me, fellas
-Dolly, never go away again
+Dolly, never go away again qwe
 Promise, you'll never go away
 Dolly'll never go away again!!!";
 
